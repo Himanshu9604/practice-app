@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+// import Component1 from './Component1'
+// import Component2 from './Component2'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className="App">
+        <h1><b>Register here...</b></h1>
+        <input type="text" placeholder="mobile number..."></input>
+        <br>
+        </br>
+        <br></br>
+        <input type="text" placeholder="password..."></input>
+        <br>
+        </br>
+        <br></br>
+        <button>Submit</button>
+        {/* <Component1/> */}
+        {/* <Component2/>   */}
+      </div>
     </div>
   );
 }
